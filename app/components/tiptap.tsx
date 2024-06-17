@@ -67,22 +67,6 @@ const Tiptap = () => {
 
     return (
         <section>
-            <div className="flex gap-4 mb-4">
-                <button
-                    onClick={updateHtml}
-                    className="px-4 py-2 capitalize bg-black text-white shadow-lg rounded transition-shadow duration-200 font-medium text-lg hover:shadow-sm"
-                >
-                    Copy editor html
-                </button>
-                <button
-                    onClick={proofread}
-                    className="px-4 py-2 capitalize bg-black text-white shadow-lg rounded transition-shadow duration-200 font-medium text-lg hover:shadow-sm"
-                >
-                    Proofread
-                </button>
-                <span>{loading ? 'Loading' : 'Done'}</span>
-            </div>
-
             {editor && <EditorContent className="max-w-1/2 min-w-1/2" editor={editor}/>}
 
             {editor && (
@@ -95,7 +79,7 @@ const Tiptap = () => {
                                 onClick={ignoreSuggestion}
                                 className="self-start px-2 py-1 mt-2 bg-red-500 text-white rounded hover:bg-red-600"
                             >
-                                XXX
+                                Ignore suggestion
                             </button>
                         </div>
                         <div className="flex flex-wrap gap-2 mt-4">

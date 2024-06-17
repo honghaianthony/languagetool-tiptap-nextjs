@@ -1,0 +1,39 @@
+.ProseMirror .lt {
+    border-bottom: 2px solid #e86a69;
+    transition: background 0.25s ease-in-out;
+}
+
+.ProseMirror .lt:hover {
+    background: rgba(232, 106, 105, 0.2);
+}
+
+.ProseMirror .lt-style {
+    border-bottom: 2px solid #9d8eff;
+}
+
+.ProseMirror .lt-style:hover {
+    background: rgba(157, 142, 255, 0.2) !important;
+}
+
+.ProseMirror .lt-typographical,
+.ProseMirror .lt-grammar {
+    border-bottom: 2px solid #eeb55c;
+}
+
+.ProseMirror .lt-typographical:hover,
+.ProseMirror .lt-grammar:hover {
+    background: rgba(238, 181, 92, 0.2) !important;
+}
+
+.ProseMirror .lt-misspelling {
+    border-bottom: 2px solid #e86a69;
+}
+
+.ProseMirror .lt-misspelling:hover {
+    background: rgba(232, 106, 105, 0.2) !important;
+}
+
+.ProseMirror-focused {
+    outline: none !important;
+}
+
